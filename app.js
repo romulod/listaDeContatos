@@ -7,9 +7,9 @@ const mongoose = require('mongoose');
 const contatosRoutes = require('./api/controller/contatos');
 
 mongoose.connect(
-  "mongodb+srv://listaDeContatos:"
+  "mongodb+@linkDoSeuClusterDeConexao"
   + process.env.MONGO_PASS +
-  "@contactslist-nr5on.mongodb.net/test"
+  "@linkDoSeuClusterDeConexao"
 );
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }));
