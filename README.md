@@ -57,7 +57,7 @@ curl --location --request POST 'localhost:3000/contatos/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
    "nome": "Fulano de Tal",
-   "tipo": "celula",
+   "tipo": "celular",
    "telefone": "00 000000000"
 }'
 
