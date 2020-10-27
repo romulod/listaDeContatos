@@ -1,7 +1,7 @@
 {
     "name": "rest-shop",
     "version": "1.0.0",
-    "description": "Desafio Rede Globo",
+    "description": "Lista telefônicaS",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exist 1",
